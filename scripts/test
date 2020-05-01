@@ -3,6 +3,13 @@
 set -ex
 
 brew update
+
+echo "testing flynn"
 brew install Formula/flynn.rb
 flynn version
 flynn help
+
+echo "testing mob"
+brew install Formula/mob.rb
+mob version
+mob help
