@@ -13,6 +13,7 @@ class Butterflow < Formula
       ENV.prepend_path "PYTHONPATH", Formula["opencv@2"].opt_lib/"python2.7/site-packages"
       ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
       system "python", *Language::Python.setup_install_args(libexec)
+      system "pip", "install", "-U", "numpy"
       bin.install Dir["#{libexec}/bin/*"]
       bin.env_script_all_files(libexec/"bin", :PYTHONPATH => ENV["PYTHONPATH"])
     end
