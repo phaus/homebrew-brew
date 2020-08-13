@@ -5,7 +5,7 @@ class Flynn < Formula
   homepage "https://flynn.io/docs/cli"
   url "https://dl.flynn.io/tuf/targets/#{$flynn_hash}.flynn-darwin-amd64.gz"
   version "v20200804.1-1ecd12c"
-  sha256 "c7906be3ba637ef4c4bfdef4a7964e17e0f27c854fca6ff2351033ba5f2aab2f"
+  sha256 "1dfbdf15fd45925e3b0394b71cc6cd1a173a32e79e6e97ac50bbaad9a432f779"
 
   def install
     system "mkdir", "bin"
