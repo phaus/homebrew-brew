@@ -1,11 +1,11 @@
 class Flynn < Formula
-  $flynn_hash = "dc429a95b99d2f75adc906275d317b25a2a6ce09886ea101473e2c4b1cb44426e5ae104db943e2f1a46a165c0f7dd086c2954f1a7b274910b669989651340f3e"
+  $flynn_hash = "1235acfeacc50df3d6068c1bde9247dd004a74decd737568244be2382b97d23e3dbdf0276dd3ae464de8cd7d74616a9a7d452572ada4ba0c134416b9e8e40bb4"
 
   desc "Everything you need to get started with Flynn"
   homepage "https://flynn.io/docs/cli"
   url "https://dl.flynn.io/tuf/targets/#{$flynn_hash}.flynn-darwin-amd64.gz"
-  version "v20200804.1-1ecd12c"
-  sha256 "1dfbdf15fd45925e3b0394b71cc6cd1a173a32e79e6e97ac50bbaad9a432f779"
+  version "v20200818.0-eecb13b"
+  sha256 "4ca5b5af9bd124be47b29e187f060487e0633012857f34df1bc712e0da07ce05"
 
   def install
     system "mkdir", "bin"
