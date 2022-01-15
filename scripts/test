@@ -4,12 +4,9 @@ set -ex
 
 brew update
 
-echo "testing flynn"
-brew install Formula/flynn.rb
-flynn version
-flynn help
-
-echo "testing mob"
-brew install Formula/mob.rb
-mob version
-mob help
+echo "testing docker-machine-driver-qemu"
+brew install Formula/docker-machine-driver-qemu.rb
+which docker-machine-driver-qemu
+/usr/local/bin/docker-machine create --driver qemu -h
+echo "uninstall docker-machine-driver-qemu"
+brew uninstall docker-machine-driver-qemu
