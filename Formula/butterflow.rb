@@ -7,7 +7,7 @@ class Butterflow < Formula
 
     depends_on "numpy"
     depends_on "ffmpeg"
-    depends_on "opencv@2"
+    depends_on "opencv"
 
     def install
       ENV.prepend_path "PYTHONPATH", Formula["numpy"].opt_lib/"python2.7/site-packages"
