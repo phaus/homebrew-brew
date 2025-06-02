@@ -1,9 +1,9 @@
 class Dmidecode < Formula
   desc "Dmidecode reports information about your system's hardware."
   homepage "https://github.com/cavaliercoder/dmidecode-osx"
-  url "https://github.com/cavaliercoder/dmidecode-osx/archive/refs/heads/v3.1.zip"
-  version "3.1"
-  sha256 "fc5508e1a84d344fe3a0ec7339bcbae24b7587d828594e228649dbcfeb244a31"
+  url "https://github.com/phaus/dmidecode-osx/archive/refs/tags/v3.1+p1.tar.gz"
+  version "3.1+p1"
+  sha256 "5b52ad05b792459e13ef3fee5c3eb054530fdafd5e40f3b5342cde75f96a37a1"
 
   def install
     system "make", "dmidecode"
