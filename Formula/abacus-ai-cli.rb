@@ -1,4 +1,4 @@
-class AbacusAICli < Formula
+class AbacusAiCli < Formula
   desc "Abacus AI CLI - A powerful desktop AI assistant with agentic browsing, listening, coding CLI and editor. Automate all your work with state of the art AI and the most powerful agent in the world."
   homepage "https://desktop.abacus.ai"
   version "1.106.25008"
