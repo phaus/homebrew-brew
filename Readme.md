@@ -9,3 +9,9 @@ You need to have [Homebrew](https://brew.sh/) installed on your system.
 Install the Butterflow CLI with
 
     $ brew install phaus/brew/butterflow
+
+## Installing Abacus AI CLI
+
+Install the Abacus AI CLI with
+
+    $ brew install phaus/brew/abacus-ai-cli
