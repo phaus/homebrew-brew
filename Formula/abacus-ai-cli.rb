@@ -1,9 +1,9 @@
 class AbacusAiCli < Formula
   desc "Abacus AI CLI - A powerful desktop AI assistant with agentic browsing, listening, coding CLI and editor. Automate all your work with state of the art AI and the most powerful agent in the world."
   homepage "https://desktop.abacus.ai"
-  version "2.2.12"
-  url "https://registry.npmjs.org/@abacus-ai/cli/-/cli-2.2.12.tgz"
-  sha256 "5f05785aed40d53a7bd9a82fa7daf5e0cabfc51871395c4382bc9df7cc7050dc"
+  version "2.4.5"
+  url "https://registry.npmjs.org/@abacus-ai/cli/-/cli-2.4.5.tgz"
+  sha256 "b3ec200d1b58e036104f96f762aa2951bdbae917631ad3afcd3d55d7d16baedb"
 
   depends_on "node"
 
