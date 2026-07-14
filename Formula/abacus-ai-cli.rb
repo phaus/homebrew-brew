@@ -1,8 +1,8 @@
 class AbacusAiCli < Formula
   desc "Desktop AI assistant with agentic browsing, listening, coding CLI and editor"
   homepage "https://desktop.abacus.ai"
-  url "https://registry.npmjs.org/@abacus-ai/cli/-/cli-2.4.8.tgz"
-  sha256 "f003551eca508138b92fcecfbd09c219e2e6c2dc942615265edd9e0601cee514"
+  url "https://registry.npmjs.org/@abacus-ai/cli/-/cli-2.6.0.tgz"
+  sha256 "9e8e70ab708b628e66004d06f1d64e99240385dd1e6f29901cd8edf979c27664"
 
   depends_on "node"
 
